@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;0,800;0,900;1,300;1,400;1,500;1,800&display=swap');
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: nome;
+}
+*{
+
+
+
+    
+}
+
+
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+
+    max-width: 1200px;
+    margin : auto;
+
+}
+
+.header{
+     background-image: linear-gradient(
+        rgba(0, 5, 5, 0.7),
+        rgba(116, 9, 9, 0.7)),
+        url(/img/caracteristicas-perro-labrador.jpg);
+     background-position:center bottom ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+   
+}
+
+.menu{
+    position : absolute;
+    top : 0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.logo{
+    color:aliceblue;
+    font-size: 25px;
+    font-weight: 800px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin:0;
+    padding:0;
+    background-color: #333;
+    overflow:hidden;
+    float:left
+
+}
+
+.menu .navbar ul li a {
+font-size: 18px;
+padding: 14px 16px;
+background-color: #111;
+color:rgb(238, 243, 241);
+display:block;
+
+font-weight: 600;
+
+}
+.meun .navbar ul li a:hover{
+color:aqua
+
+
+}
+#menu{
+    display:none;
+
+}
+.menu-icono{
+    width: 25px;
+}
+.menu laberl {
+    cursor:pointer;
+    display:none;
+
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .product p {
+    font-size: 1em;
+    color: #777;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product p.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .product button {
+    background-color: #1c00ba;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 1px;
+    cursor: pointer;
+    font-size: 3mm;
+  }
+  
+  .product button:hover {
+    background-color: #005F6B;
+  }
+
+     
+  nav {
+    background-color: #333;
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 1rem;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  a.active {
+    background-color: #ddd;
+    color: #333;
+  }
+
+
+  .menu .navbar .container{
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-size: 14px;
+    -webkit-font-smoothing: subpixel antialiasing !important;
+}
+body {
+    background-color: #fff;
+    color: #666;
+}
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.imagen-fondo{
+    background-image: url(/img/Fondos-de-pantalla-de-un-perro-junto-a-un-gato.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10em;
+}
+
+.titulo-omg{
+  
+    font-family: Helvetica,arial,sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.em;
+    letter-spacing: 0px;
+    font-size: 14px;
+    
+
+
+}
+
+.tabla-empleados {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.titulo-omg{
+
+text-align: center;
+
+
+}
+.titulo-producter{
+
+    text-align: center;
+
+}
+
+.titulo-sobrenosotros{
+    text-align: center;
+
+}
+.tabla-empleados{
+
+    text-align: center;  
+}
+
+
+.titulo-adopciones{
+
+    text-align: center;  
+}
+
+.sub-titulo{
+
+    text-align: center;  
+}
+.p-adopciones   {
+
+    text-align: center;  
+
+}
+
+.titulo-adopcion2{
+    text-align: center;  
+}
+.titulo-adopcion21{
+
+    text-align: center;  
+}
+
+    
